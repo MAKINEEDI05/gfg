@@ -15,7 +15,7 @@ class Solution {
     bool searchKey(Node* head, int key) {
         Node *temp=head;
         while(temp!=NULL){
-            if(key==temp->data){
+            if(temp->data==key){
                 return 1;
             }
             temp=temp->next;
